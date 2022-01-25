@@ -157,26 +157,4 @@ form{
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (max-width: 1200px) {
-    .location{
-        display: none;
-    }
-    .map{
-        display: none;
-    }
-    .order{
-        display: none ;
-    }
-    .cart{
-        display: none ;
-    }
-    .container-header{
-        padding: 3%;
-    }
-    .arrange2{
-        display: none;
-    }
-    .arrange1{
-        display: block;
-    }
-  }
+
