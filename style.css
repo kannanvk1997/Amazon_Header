@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+.container-header{
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+.mainlogo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex: 1;
+}
+.location{
+    flex: 1.5;
+    color: #fff;
+}
+.locationdiv{
+    display: flex;
+    align-items: center;
+}
+.mapul{
+    padding: 0;
+}
+.fa-map-marker-alt{
+    margin-right: 5px;
+}
+/* <----------------------------------------------------> */
+.search-container{
+    margin-right: 50px;
+    flex: 5;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+.fa-search{
+    font-size: 20px;
+    padding: 1%;
+}
+.searchInput {
+    width: 100%;
+    height: 2rem;
+    padding: 0 1rem; 
+    border-radius: 2rem;
+    /* border: none; */
+    transition: transform 0.1s ease-in-out;
+    border: solid .5px #adadad;
+    
+  }
+.searchInputIcon {
+    right: 0.8rem;
+    top: 0.5rem;
+    color: #a1a1a1;
+    transition: all 0.1s ease-in-out;
+  }
+/* <----------------------------------------------------> */
+.map{
+    flex: .75;
+}
+.mapul li{
+    list-style-type: none;
+}
+.hellosignin{
+    font-size: 11px;
+}
+/* <----------------------------------------------------> */
+.account{
+    flex: 1.5;
+    color: #fff;
+}
+.accountul{
+    list-style-type: none;
+    padding: 0;
+}
+.fa-sort-down{
+    padding-top: 10px;
+    margin-left: 5px;
+}
+/* <----------------------------------------------------> */
+.order{
+    flex: .75;
+    color: #fff;
+}
+.cart{
+    flex: .75;
+    color: #fff;
+}
+.fa-shopping-cart{
+    font-size: 20px;
+    margin-right: 7px;
+}
+.submenu{
+    background-color: #232f3e;
+}
+.submenu ul li a{
+      color: #fff;
+  }
+.submenu ul{
+      display: flex;
+      align-items: center;
+  }
+.submenu ul li{
+      padding: 0 2%;
+      /* flex: 1; */
+  }
+.submenu ul li:hover{
+    border: solid 1px #fff;
+}
+.ads{
+    flex: 4;
+}
+.fa-bars{
+    margin-right: 6px;
+}
+
+/* <----------------------------------------------------> */
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 600px) {
+    .logo{
+        flex: 2;
+    }
+    .account{
+        flex: 1;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    .search-container{
+        display: none;
+    }
+    .logo{
+        flex: 3;
+    }
+    .account{
+        flex: 1;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1200px) {
+    .location{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    .order{
+        display: none ;
+    }
+    .cart{
+        display: none ;
+    }
+    .container-header{
+        padding: 3%;
+    }
+    .arrange2{
+        display: none;
+    }
+    .arrange1{
+        display: block;
+    }
+  }
